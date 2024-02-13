@@ -5,7 +5,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 a{
     text-decoration: none;
@@ -15,10 +15,10 @@ a{
         display: flex;
         list-style: none;
     }
-    ul .classborder{
+     .classborder{
         border-right: 1px solid black;
     }
-    ul li{
+    .classborder{
         margin: 0px 20px;
     }
     main{
@@ -28,7 +28,7 @@ a{
        margin-bottom: 20rem;
    }
     
-    #photo_rais{
+    .photo_rais{
         width: 200px;
         height: 200Px;
         border-radius: 100%;
@@ -36,7 +36,7 @@ a{
         float:left;
          
     }
-    #moi{
+    .moi{
         width: 20rem;
     
 
@@ -44,11 +44,11 @@ a{
     h2{
         font-size: 2.5rem;
     }
-    #boutton{
+    .boutton{
         display: flex;
         justify-content: space-between;
     }
-    #boutton li{
+    .boutton li{
         width: 100px;
         height: 100px;
         display: flex;
@@ -58,13 +58,13 @@ a{
         border: 0.5 solid black;
     
     }
-    #cv{
+    .cv{
         background-color: goldenrod;
     }
-    #projets{
+    .projets{
         background-color:rgb(222, 56, 56);
     }
-    #contact{
+    .contact{
         background-color: darkturquoise;
     }
     footer{
@@ -73,7 +73,7 @@ a{
         width: 95%;
         border-top: 1px solid #ffffff;
     }
-    #Rfooter{
+    .Rfooter{
         display: flex;
         width: 90%;
         justify-content: space-between;
@@ -82,28 +82,26 @@ a{
         font-weight: bolder;
         margin: 1rem 0rem;
     }
-    #copyrigth{
-        margin: 1rem Orem;
-    }
+   
     main{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 20rem;
     }
-   #coordonées{
+   .coordonées{
     float: left;
     justify-content: space-between;
    }
-   #info{
+   .info{
     width: 20rem;
    }
 
-   #envform{
+   .envform{
     display: flex;
     justify-content: space-between;
 } 
-#button
+.button
     {
         width: 100px;
         height: 100px;
@@ -114,7 +112,24 @@ a{
         border: 0.5 solid black;
         background-color: goldenrod;
     
+    } 
+
+    /*------------------responsives-----------------*/
+   @media  screen and(max-width: 1024px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+
+   }
+   @media  screen and (min: width 768px{
+    
+   }
     }
+    
+   
+    
+ 
 
     
 
