@@ -16,8 +16,8 @@ a{
         list-style: none;
     }
      .classborder{
-        border-right: 1px solid black;
-    }
+        border-right: 1px solid black; }
+       
     .classborder{
         margin: 0px 20px;
     }
@@ -28,7 +28,7 @@ a{
        margin-bottom: 20rem;
    }
     
-    .photo_rais{
+    .main__photo_rais{
         width: 200px;
         height: 200Px;
         border-radius: 100%;
@@ -36,7 +36,7 @@ a{
         float:left;
          
     }
-    .moi{
+    .main__moi{
         width: 20rem;
     
 
@@ -44,18 +44,19 @@ a{
     h2{
         font-size: 2.5rem;
     }
-    .boutton{
+    .main__boutton{
         display: flex;
         justify-content: space-between;
     }
-    .boutton li{
+    .main__boutton li{
         width: 100px;
         height: 100px;
         display: flex;
-        justify-content: center;
+        justify-content:space-evenly;
         align-items: center;
         border-radius: 50%;
         border: 0.5 solid black;
+        
     
     }
     .cv{
@@ -73,22 +74,24 @@ a{
         width: 95%;
         border-top: 1px solid #ffffff;
     }
-    .Rfooter{
+    .footer__Rfooter{
         display: flex;
         width: 90%;
         justify-content: space-between;
     }
-    .title{
+    .footer__title{
         font-weight: bolder;
         margin: 1rem 0rem;
+    } 
+    .footer__logo{
+        display: flex;
+        justify-content: space-between;
     }
-   
     main{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20rem;
-    }
+        margin-bottom: 20rem; }
    .coordonées{
     float: left;
     justify-content: space-between;
@@ -101,6 +104,10 @@ a{
     display: flex;
     justify-content: space-between;
 } 
+.title{
+    font-weight: bolder;
+    margin: 1rem 0rem;
+}
 .button
     {
         width: 100px;
@@ -121,11 +128,38 @@ a{
         justify-content: space-between;
         margin-bottom: 5rem;
 
+   } }
+   @media  screen and (min-width: 768px) and (max-width:1023px){
+
+    header{
+        display: flex;
+        justify-content:space-evenly;
+        margin-bottom:1rem;
    }
-   @media  screen and (min: width 768px{
-    
-   }
+   footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+}
+.footer__Rfooter{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+}
+@media screen and(max-width:767px){ 
+ 
+         
     }
+
+    
+
+    
+
+
+    
     
    
     
