@@ -15,6 +15,12 @@ a{
         display: flex;
         list-style: none;
         gap: 20px;
+       
+       
+    }
+    li{
+        border-right: 1px solid black
+
     }
      .classborder{
         border-right: 1px solid black;
@@ -142,12 +148,37 @@ a{
         align-items: start;
     }
     .contact_main{
-        display: flex;
+        display:flex;
         gap: 40px;
         justify-content: space-between;
         padding:0px 50px;
+    } 
+    .main-projet{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
     }
-
+    .main-projet__portfolio{
+        width: 20rem;
+        height: 20rem;
+        border: 1px solid black;
+    }
+    .main-projet__norman{
+        width: 20rem;
+        height: 20rem; 
+        border: 1px solid black;
+       
+    }
+    .main-projet__paragraph{
+        width: 20rem; 
+        /* float: left;    */
+    }
+     .main-projet__section{
+        display: flex;
+        flex-direction: row-reverse;
+        gap:30px;
+     }
     /*------------------responsives-----------------*/
 
     
@@ -201,9 +232,11 @@ a{
         flex-direction: column;
         align-items: start;
         margin-bottom: 50px;
+       
     }
     .main__cv h2{
         font-size: 20px;
+        border-top:1px solid black;
     }
     body{
         padding: 10px 10px;
@@ -213,7 +246,9 @@ a{
         flex-direction: column;
         justify-content: center;
      }
-}
+    
+     }
+  
 @media screen and (max-width:700px){ 
  
     ul{
@@ -248,8 +283,6 @@ a{
         align-items: center;
         border-radius: 50%;
         border: 0.5 solid black;
-        
-    
     }
     .footer__Rfooter{
         display: flex;
@@ -263,5 +296,9 @@ a{
         align-items: center;
         gap: 40px;
     }
+    .main-projet__section{
+        display: flex;
+        flex-direction: column;
+    }    
    
 }
