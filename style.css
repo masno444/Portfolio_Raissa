@@ -92,6 +92,7 @@ a{
     } 
     .footer__logo{
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
     main{
@@ -150,6 +151,7 @@ a{
     .main__cv{
         flex-direction: column;
         align-items: start;
+
     }
     .contact_main{
         display:flex;
@@ -163,17 +165,13 @@ a{
         justify-content: center;
        
     }
-    .main-projet__portfolio{
+    .main__projet--taille{
         width: 20rem;
         height: 20rem;
-        border: 1px solid black;
+        border: 10px solid gray;
+        margin-bottom: 10%;
     }
-    .main-projet__norman{
-        width: 20rem;
-        height: 20rem; 
-        border: 1px solid black;
-       
-    }
+    
     .main-projet__paragraph{
         width: 20rem; 
         /* float: left;    */
@@ -236,12 +234,11 @@ a{
         flex-direction: column;
         align-items: start;
         margin-bottom: 50px;
+        font-size: 20px;
+       
        
     }
-    .main__cv h2{
-        font-size: 20px;
-        border-top:1px solid black;
-    }
+    
     body{
         padding: 10px 10px;
     }
