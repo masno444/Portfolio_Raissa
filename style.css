@@ -18,15 +18,19 @@ a{
        
        
     }
-    li{
-        border-right: 1px solid black
-
+    .border__right{
+        border-right: 1px solid black;
+        padding-right: 40%;
     }
-     .classborder{
+
+    .padding__left{
+        padding-left: 25%;
+    }
+     /* .classborder{
         border-right: 1px solid black;
         border-left: 1px solid black;
         margin: 0px 20px; 
-        padding: 0px 15px; }
+        padding: 0px 15px; } */
     
     .main__photo_rais{
         width: 400px;
