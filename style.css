@@ -103,7 +103,7 @@ a{
        
     }
    .coordonées{
-       float: left;
+    float: left;
     justify-content: space-between;
    }
 
@@ -132,6 +132,7 @@ a{
         flex-direction: row;
         align-items: center;
         gap: 40px;
+
     }
     input, textarea{
         width: 200px;
@@ -146,7 +147,6 @@ a{
         display: flex;
         flex-direction: column;
         gap: 30px;
-
     }
     .main__cv{
         flex-direction: column;
@@ -184,9 +184,9 @@ a{
     /*------------------responsives-----------------*/
 
     
-@media  screen and (max-width:1023px){
 
 
+    @media  screen and (max-width:1023px){
    .main__photo_rais{
         width: 400px;
         height: 400Px;
@@ -234,9 +234,13 @@ a{
         flex-direction: column;
         align-items: start;
         margin-bottom: 50px;
-        font-size: 20px;
-       
-       
+        font-size: 20px;    
+    }
+    .footer__logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15%;
     }
     
     body{
@@ -250,8 +254,18 @@ a{
     
      }
   
-@media screen and (max-width:700px){ 
- 
+@media screen and (max-width:428px){ 
+    .footer__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15%;
+    }
     ul{
         margin: 0px;
         padding: 0px;
@@ -297,9 +311,12 @@ a{
         align-items: center;
         gap: 40px;
     }
+
+    .redim{
+        width: 200px;
+        font-size: 1.2rem;
+    }
     .main-projet__section{
         display: flex;
         flex-direction: column;
-    }    
-   
-}
+    } }    
